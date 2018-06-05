@@ -32,7 +32,9 @@
                 <li><a href="topitems.html">TOP ITEMS</a></li>
               </ul>
             </nav>
-            <div class="txtNew" id="WRchTxt5"><h1 class="font_0"><span class="color_18">&#8203;Dr.&#8203;</span> Computer</h1></div>
+            <div>
+                <h1><span>&#8203;Dr.&#8203;</span> Computer</h1>
+            </div>
           </div>
         </div>
       </div>
@@ -44,34 +46,33 @@
         <div class="inside1">
           <div class="wrap">
             <article class="col-1">
-              <h2>Postal Address</h2>
+              <h2>Dr. Computer</h2>
               <address>
-              <b>Zip Code:</b>50122<br />
+              <b>Zip Code:</b>94158<br />
               <b>Country:</b>USA<br />
               <b>State:</b>California<br />
-              <b>City:</b>San Diego<br />
-              <b>Telephone:</b>+354 5635600<br />
-              <b>Fax:</b>+354 5635620<br />
-              <b>Email:</b><a href="#">smartnet@mail.com</a>
+              <b>City:</b>San Francisco<br />
+              <b>Street:</b>500 Terry Francois<br />
+              <b>Telephone:</b>123-456-7890<br />
+              <b>Fax:</b>123-456-7890<br />
+              <b>Email:</b><a href="#">info@mysite.com</a>
               </address>
-              <h5>Miscellaneous Info:</h5>
-              <p class="p0">Namlibero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda repel- lendus. Temporibus autem quibus- dam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudi andae sint et molestiae non recusandae. Itaque earum rerum hic. </p>
             </article>
             <article class="col-2">
               <h2>Contact Form</h2>
               <form id="contacts-form" action="#">
                 <fieldset>
                   <div class="field text">
-                    <label>Your Name:</label>
-                    <input type="text">
+                    <input id="field1" type="text" required="" aria-invalid="false" name="Name" placeholder="Name *" value="">
                   </div>
                   <div class="field text">
-                    <label>Your E-mail:</label>
-                    <input type="email">
+                    <input id="field2" type="text" required="" aria-invalid="false" name="Email" class="cf1_required" placeholder="Email *" data-aid="emailField" value="">
                   </div>
+                    <div class="field text">
+                    <input id="field3" type="text" aria-invalid="false" name="Subject" class="" placeholder="Subject" data-aid="subjectField" value="">
+                    </div>
                   <div class="field">
-                    <label>Your Message:</label>
-                    <textarea></textarea>
+                    <textarea name="Message" class="cf1fieldMessage" placeholder="Message" data-aid="messageField" id="CntctFrm0fieldMessage"></textarea>
                   </div>
                   <div class="alignright"><a href="#" class="link4" onClick="document.getElementById('contacts-form').reset()"><span><span>Clear</span></span></a><a href="#" class="link2"><span><span>Send</span></span></a></div>
                 </fieldset>
