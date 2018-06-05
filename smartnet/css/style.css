@@ -853,3 +853,21 @@ footer .footerlink {
 a {
 	outline:none;
 }
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.column {
+  float: left;
+  width: 32%;
+  padding: 5px;
+}
+
+.itemname {
+    text-align: center;
+    font: bold 15px arial, sans-serif;
+    color:#6fa803;
+}
